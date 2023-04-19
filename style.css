@@ -1,0 +1,34 @@
+:root{
+    --blue: #3D9BE9;
+    --purple: #252897;
+    --green: #46a748;
+    --yellow: #FFD52F;
+    --orange: #ff9900;
+    --red: #EA2230;
+    --grey: #808285;
+    --dark-grey: #333333;
+    --light-grey: #efefef;
+    --header-text: 'Noto Sans', sans-serif;
+    --body-text: 
+}
+
+* {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+
+}
+
+h1,
+h2 h3,
+h4,
+h5,
+h6 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
