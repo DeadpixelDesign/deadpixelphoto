@@ -43,7 +43,9 @@ p {
 /*===Layout===*/
 
 .container {
+    display: block;
     max-width: 1400px;
+    margin: 0 auto;
 }
 
 @media (width <=1200px) {
@@ -78,4 +80,8 @@ p {
 
 .text-dark-grey {
     color: var(--dark-grey);
+}
+
+.d-block {
+    display: block;
 }
